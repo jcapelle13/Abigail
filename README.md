@@ -5,3 +5,5 @@ Abigail - React Native App Created by Andorina Care at European Innovation Acade
 [Andorina Care Facebook](https://www.facebook.com/pg/andorinacare/)
 
 [European Innovation Academy](https://www.inacademy.eu/)
+
+![Abigail Logo](AbigailLogoTransparent.png)
