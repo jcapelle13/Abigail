@@ -1,0 +1,281 @@
+{
+    "resourceType": "Bundle",
+    "id": "8eec0947-834d-4ba8-84cc-b582812b8bdc",
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient?_id=4342009"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient/4342009",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "4342009",
+                "meta": {
+                    "versionId": "29",
+                    "lastUpdated": "2018-03-19T13:01:29.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "\u003Cdiv\u003E\u003Cp\u003E\u003Cb\u003EPatient\u003C/b\u003E\u003C/p\u003E\u003Cp\u003E\u003Cb\u003EName\u003C/b\u003E: SMART, NANCY\u003C/p\u003E\u003Cp\u003E\u003Cb\u003EDOB\u003C/b\u003E: Aug 11, 1980\u003C/p\u003E\u003Cp\u003E\u003Cb\u003EAdministrative Gender\u003C/b\u003E: Female\u003C/p\u003E\u003Cp\u003E\u003Cb\u003EMarital Status\u003C/b\u003E: Married\u003C/p\u003E\u003Cp\u003E\u003Cb\u003EStatus\u003C/b\u003E: Active\u003C/p\u003E\u003C/div\u003E"
+                },
+                "extension": [
+                    {
+                        "url": "http://fhir.org/guides/argonaut/StructureDefinition/argo-race",
+                        "extension": [
+                            {
+                                "url": "ombCategory",
+                                "valueCoding": {
+                                    "system": "http://hl7.org/fhir/v3/Race",
+                                    "code": "2106-3",
+                                    "display": "White",
+                                    "userSelected": false
+                                }
+                            },
+                            {
+                                "url": "text",
+                                "valueString": "White"
+                            }
+                        ]
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "MR",
+                                    "display": "Medical record number",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.1.1.1.1.1",
+                        "value": "10002701",
+                        "period": {
+                            "start": "2016-06-22T20:43:05.000Z"
+                        }
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "AN",
+                                    "display": "Account number",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Federated Person Principal"
+                        },
+                        "system": "urn:oid:2.16.840.1.113883.3.13.6",
+                        "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:0B8A0111-E8E6-4C26-A91C-5069CBC6B1CA:PRINCIPAL:ABC123",
+                        "period": {
+                            "start": "2017-09-26T05:00:00.000Z",
+                            "end": "2019-01-02T05:00:00.000Z"
+                        }
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "AN",
+                                    "display": "Account number",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Federated Person Principal"
+                        },
+                        "system": "urn:oid:2.16.840.1.113883.3.13.6",
+                        "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:687F29DD-69DD-4DE5-ACB1-FD8A2241EF3A:PRINCIPAL:YP2QT7JS2SA",
+                        "period": {
+                            "start": "2016-11-01T10:00:00.000Z"
+                        }
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "AN",
+                                    "display": "Account number",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Federated Person Principal"
+                        },
+                        "system": "urn:oid:2.16.840.1.113883.3.13.6",
+                        "value": "urn:cerner:identity-federation:realm:687f29dd-69dd-4de5-acb1-fd8a2241ef3a:principal:YP2qT7jS2sa",
+                        "period": {
+                            "start": "2016-11-01T10:00:00.000Z"
+                        }
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "SMART, NANCY",
+                        "family": [
+                            "SMART"
+                        ],
+                        "given": [
+                            "NANCY"
+                        ],
+                        "period": {
+                            "start": "2016-06-22T20:43:05.000Z"
+                        }
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1980-08-11",
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                            "code": "M",
+                            "display": "Married",
+                            "userSelected": false
+                        }
+                    ],
+                    "text": "Married"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "text": "Authorized Representative"
+                            }
+                        ],
+                        "name": {
+                            "use": "official",
+                            "text": "SMART, JOE",
+                            "family": [
+                                "SMART"
+                            ],
+                            "given": [
+                                "JOE"
+                            ],
+                            "period": {
+                                "start": "2016-06-22T21:06:59.000Z"
+                            }
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "9139898765",
+                                "use": "home",
+                                "period": {
+                                    "start": "2017-06-27T21:47:16.000Z"
+                                }
+                            },
+                            {
+                                "system": "phone",
+                                "value": "9137876555",
+                                "use": "mobile",
+                                "period": {
+                                    "start": "2017-06-27T21:47:16.000Z"
+                                }
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "text": "1234 Blvd\nOverland Park, KS 66213\nUSA",
+                            "line": [
+                                "1234 Blvd"
+                            ],
+                            "city": "Overland Park",
+                            "district": "Johnson",
+                            "state": "KS",
+                            "postalCode": "66213",
+                            "country": "USA",
+                            "period": {
+                                "start": "2017-06-27T21:47:16.000Z"
+                            }
+                        },
+                        "gender": "male",
+                        "period": {
+                            "start": "2017-07-07T18:28:24.000Z",
+                            "end": "2017-09-20T15:18:54.000Z"
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "text": "Authorized Representative"
+                            }
+                        ],
+                        "name": {
+                            "use": "official",
+                            "text": "SMART, JOE",
+                            "family": [
+                                "SMART"
+                            ],
+                            "given": [
+                                "JOE"
+                            ],
+                            "period": {
+                                "start": "2016-06-22T21:06:59.000Z"
+                            }
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "9139898765",
+                                "use": "home",
+                                "period": {
+                                    "start": "2017-06-27T21:47:16.000Z"
+                                }
+                            },
+                            {
+                                "system": "phone",
+                                "value": "9137876555",
+                                "use": "mobile",
+                                "period": {
+                                    "start": "2017-06-27T21:47:16.000Z"
+                                }
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "text": "1234 Blvd\nOverland Park, KS 66213\nUSA",
+                            "line": [
+                                "1234 Blvd"
+                            ],
+                            "city": "Overland Park",
+                            "district": "Johnson",
+                            "state": "KS",
+                            "postalCode": "66213",
+                            "country": "USA",
+                            "period": {
+                                "start": "2017-06-27T21:47:16.000Z"
+                            }
+                        },
+                        "gender": "male",
+                        "period": {
+                            "start": "2017-06-09T13:46:54.000Z",
+                            "end": "2017-06-20T15:28:11.000Z"
+                        }
+                    }
+                ],
+                "careProvider": [
+                    {
+                        "reference": "Practitioner/1912007",
+                        "display": "McCurdy, Michael"
+                    }
+                ]
+            }
+        }
+    ]
+}
